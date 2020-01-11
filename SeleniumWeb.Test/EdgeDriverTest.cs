@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Edge;
 
 namespace SeleniumWeb.Test
@@ -11,25 +12,25 @@ namespace SeleniumWeb.Test
         // please follow the instructions from http://go.microsoft.com/fwlink/?LinkId=619687
         // to install Microsoft WebDriver.
 
-        private EdgeDriver _driver;
+        private ChromeDriver _driver;
 
         [TestInitialize]
         public void EdgeDriverInitialize()
         {
             // Initialize edge driver 
-            var options = new EdgeOptions
+            var options = new ChromeOptions
             {
                 PageLoadStrategy = PageLoadStrategy.Normal
             };
-            _driver = new EdgeDriver(options);
+            _driver = new ChromeDriver(options);
         }
 
         [TestMethod]
         public void VerifyPageTitle()
         {
             // Replace with your own test logic
-            _driver.Url = "https://www.bing.com";
-            Assert.AreEqual("Bing", _driver.Title);
+            _driver.Url = "https://localhost:44379/";
+            Assert.AreEqual("Home Page - TrainingProjectWeb", _driver.Title);
         }
 
         [TestCleanup]
