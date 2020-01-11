@@ -6,7 +6,7 @@ using System.IO;
 using System.Reflection;
 using System.Threading;
 
-namespace ChromeDriverTest
+namespace SeleniumWeb.Test
 {
     [TestClass]
     public class ChromeDriverTest
