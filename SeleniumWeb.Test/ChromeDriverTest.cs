@@ -74,10 +74,10 @@ namespace SeleniumWeb.Test
 
 
 
-        [TestCleanup]
-        public void ChromeDriverCleanup()
-        {
-            _driver.Quit();
-        }
+        //[TestCleanup]
+        //public void ChromeDriverCleanup()
+        //{
+        //    _driver.Quit();
+        //}
     }
 }
