@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumWeb.Test", "SeleniumWeb.Test\SeleniumWeb.Test.csproj", "{5CC19D2E-F2F0-4665-9CDE-6414786B4884}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumWeb.Test", "SeleniumWeb.Test\SeleniumWeb.Test.csproj", "{5CC19D2E-F2F0-4665-9CDE-6414786B4884}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingProjectWeb", "TrainingProjectWeb\TrainingProjectWeb.csproj", "{468EA5B8-7BF7-4C8C-86AF-734D39A23534}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainingProjectWeb", "TrainingProjectWeb\TrainingProjectWeb.csproj", "{468EA5B8-7BF7-4C8C-86AF-734D39A23534}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
